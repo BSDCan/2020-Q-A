@@ -1,0 +1,9 @@
+<jhb>:
+Have you thought about using range locks on the backing file up
+front before servicing an I/O request so that you could allow
+non-overlappin I/O requests to run in parallel?
+
+I realize you might still need to do some serialization for writes
+that alter the L1/L2 tables themselves using probably a separate lock
+in the process itself.  (Presumably you cache the L1 at least and
+possibly L2)
