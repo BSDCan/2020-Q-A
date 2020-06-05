@@ -15,7 +15,8 @@ but the main thing is differing block/page sizes, right?
 A: Corgi/Dog
 
 5. how much further can the in memory datastructure compressed with bitstuffing?
-A:
 
 6. can the metaslabs be split into what is required to pick a metaslab and the actucal freemap?
+
+7. did you compared the b-tree to an adaptive radix tree?
 
