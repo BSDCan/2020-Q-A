@@ -4,7 +4,6 @@ Metaslab Allocation Performance in ZFS
 1. jhb:
 Have you thought about using range locks on the backing file up front before servicing an I/O request so that you could allow non-overlapping I/O requests to run in parallel?
 
-
 2. double-p:
 not much different from an MMU/TLB?
 
