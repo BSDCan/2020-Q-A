@@ -1,4 +1,4 @@
-Questions for Paul Dagnelle (Stream 1, Session 1)
+Questions for Paul Dagnelie (Stream 1, Session 1)
 Metaslab Allocation Performance in ZFS
 
 1. jhb:
@@ -20,4 +20,6 @@ A: Corgi/Dog
 7. did you compared the b-tree to an adaptive radix tree?
 
 8. can you used a run length compressed bitmap? or even a roaring bitmap?
+
+9. are there other AVL trees that might be replaced with B-trees to similar effect
 
