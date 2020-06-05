@@ -36,9 +36,10 @@ probably not a ton, and probably portable.
 ### does freebsd have real sendmmsg() / recvmmsg()? 
 Requester: crest
 
+
 ### Oh, so SW kTLS can even be something like the NEON stuff on ARM or RISC-V vector extensions
 Requester: debrup
-Got added to the OCF today, https://svnweb.freebsd.org/changeset/base/361809
+
 
 ### do you plan to support chacha20 and poly1305?
 Requester: crest
