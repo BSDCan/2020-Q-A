@@ -1,0 +1,4 @@
+Questions for Andrew Turner, on CheriBSD on Morello, the second CHERI
+
+13:20 crest: [Q]: what do think about single address space systems and seperating memory mapping from protection?
+
