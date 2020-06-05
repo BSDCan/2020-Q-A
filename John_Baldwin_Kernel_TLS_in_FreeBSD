@@ -10,3 +10,5 @@ Requester: debrup
 ### will be possible to get a data only file descriptor for a ktls socket with ktls send and recv implemented. i would like to keep the key exchange i a different process
 Requester: crest
 
+### Do you know if the work by rmacklem@ on TLS encrypted NFS going to be benefiting from kTLS too?
+Requester: debrup
