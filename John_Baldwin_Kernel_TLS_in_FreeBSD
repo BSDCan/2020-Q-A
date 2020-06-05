@@ -43,7 +43,7 @@ Yes, in particular there is a limited armv8 module that doenst do GCM.
 
 ### do you plan to support chacha20 and poly1305?
 Requester: crest
-Yes, the framework should allow adding it
+Yes, the framework should allow adding it. We have them indepentently but not combined.
 
 ### could the key exchange be put into a different userspace process
 Requester: crest
