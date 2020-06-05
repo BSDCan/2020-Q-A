@@ -23,13 +23,21 @@ Yes, its in the 13-CURRENT branch. (Answered in the talk) Added: It can take man
 
 ### How much did the kernel crypto framework have to change for ktls?
 Requester: crest
-
+It helped.
 
 ### Is someone working on socket splicing for ktls to offload things like haproxy with reencryption?
 Requester: crest
+No, there is nobody currently looking at it.
 
 ###  How much work would it be to add ktls to gnutls?
 Requester: crest
 
+
 ### does freebsd have real sendmmsg() / recvmmsg()? 
+Requester: crest
+
+### Oh, so SW kTLS can even be something like the NEON stuff on ARM or RISC-V vector extensions
+Requester: debrup
+
+### do you plan to support chacha20 and poly1305?
 Requester: crest
