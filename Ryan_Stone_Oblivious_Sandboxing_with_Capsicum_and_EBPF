@@ -7,3 +7,5 @@ these compatability hooks would be difficult?
 
 <bkidney> [Q] What is the most complex program on which you have
 tested your prototype?
+
+<emaste> [Q] Are there TOCTOU issues with intercepting syscalls?
