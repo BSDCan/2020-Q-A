@@ -35,11 +35,15 @@ probably not a ton, and probably portable.
 
 ### does freebsd have real sendmmsg() / recvmmsg()? 
 Requester: crest
-
+yes, but would have to double check to make sure they are real functions
 
 ### Oh, so SW kTLS can even be something like the NEON stuff on ARM or RISC-V vector extensions
 Requester: debrup
-
+Yes, in particular there is a limited armv8 module that doenst do GCM.
 
 ### do you plan to support chacha20 and poly1305?
+Requester: crest
+Yes, the framework should allow adding it
+
+### could the key exchange be put into a different userspace process
 Requester: crest
