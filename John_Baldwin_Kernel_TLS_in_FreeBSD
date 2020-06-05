@@ -47,3 +47,4 @@ Yes, the framework should allow adding it. We have them indepentently but not co
 
 ### could the key exchange be put into a different userspace process
 Requester: crest
+It is currently used completely in userland. You could add privsep whithin your app in userspace.
