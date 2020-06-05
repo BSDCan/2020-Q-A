@@ -1,0 +1,24 @@
+Questions from the Session: Thunderbolt on FreeBSD (Scott Long)
+URL:  https://www.bsdcan.org/events/bsdcan_2020/schedule/session/27/
+
+16:07 debdrup: What happened with the ethernet stuff phk (I think?) was asking about that?
+
+16:07 zBeeble: are their non-Intel thunderbolt?
+
+16:08 crest: Will there be an ethernet over thunderbolt driver (just like fwe(4) for firewire)?
+16:08 crest: or ip over thunderbolt?
+16:08 crest: and would it be compatible to what macos and windows do?
+
+16:11 crest: How dangerous is thunderbolt with IOMMU enabled?
+
+16:12 crest: Can FreeBSD protect itself from "evil" devices connected at boot?
+
+16:13 bsdimp: Do we have the ability to wireshark raw TB packets?
+
+16:14 bsdimp: Will chained displays over TB be supported in the initial driver?
+
+16:15 crest: Could thunderbolt replace firewire for kernel debugging?
+
+16:15 bsdimp: Pipe dream: can I use my old TB2/DisplayPort monitor with this? Or was that proprietary and I still have a paperweight?
+
+16:28 scottl: bsdimp: the ThunderboltIP spec is still unreleased, though it's implemented in the public linux sources.  I was thinking that until it does get released, we would have to create our own ethernet encap protocol.  But maybe doing a gdb server protocol is a better way to prototype and demo the raw frame tech
