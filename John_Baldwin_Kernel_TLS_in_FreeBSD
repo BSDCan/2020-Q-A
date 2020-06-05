@@ -4,4 +4,47 @@ Date: 2020-06-05
 
 ## Questions
 
-### 
+### Does KTLS benefit from the OCF updates heading into HEAD, ie. if TLSv1.4 or 1.5 add new crypto primitives, it can be added in only one place in the kernel?
+Requester: debrup
+Yes (Answered in the talk)
+
+### Will be possible to get a data only file descriptor for a ktls socket with ktls send and recv implemented. i would like to keep the key exchange i a different process
+Requester: crest
+In the send case that is what you get, its transparent to the kernel. The recieve side is more complicated and we need to and you need to use recieve message, and its not a straight read to get your data on the recieve side.
+
+### Do you know if the work by rmacklem@ on TLS encrypted NFS going to be benefiting from kTLS too?
+Requester: debrup
+<crest> looks like he uses ktls only with a userspace helper. but sofar only supports tls1.2 because ktls doesn't support tls1.3 (yet) 
+Its not feesible without the kTLS work, so it is going to make use of it.
+
+### So SW kTLS benefits from aesni(4) since that's conceptually software (as opposed to hifn(4) and ubsec(4) which are hardware)?
+Requester: debrup
+Yes, its in the 13-CURRENT branch. (Answered in the talk) Added: It can take many forms. so its still using software even if its using the coprocessor
+
+### How much did the kernel crypto framework have to change for ktls?
+Requester: crest
+It helped.
+
+### Is someone working on socket splicing for ktls to offload things like haproxy with reencryption?
+Requester: crest
+No, there is nobody currently looking at it.
+
+###  How much work would it be to add ktls to gnutls?
+Requester: crest
+probably not a ton, and probably portable.
+
+### does freebsd have real sendmmsg() / recvmmsg()? 
+Requester: crest
+yes, but would have to double check to make sure they are real functions
+
+### Oh, so SW kTLS can even be something like the NEON stuff on ARM or RISC-V vector extensions
+Requester: debrup
+Yes, in particular there is a limited armv8 module that doenst do GCM.
+
+### do you plan to support chacha20 and poly1305?
+Requester: crest
+Yes, the framework should allow adding it. We have them indepentently but not combined.
+
+### could the key exchange be put into a different userspace process
+Requester: crest
+It is currently used completely in userland. You could add privsep whithin your app in userspace.
