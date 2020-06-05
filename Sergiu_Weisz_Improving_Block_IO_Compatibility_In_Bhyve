@@ -15,3 +15,6 @@ plans when this hits head?
 and how to identify/fix sizings
 
 <double-p> 'but the main thing is differing block/page sizes, right?' and you said yes.. so how to "fix" this
+
+<jhb>:
+Is the block size fixed for QCOW2 I wonder or configurable? (you said it was 64K for VMDK)
