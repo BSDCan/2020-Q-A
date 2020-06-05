@@ -1,0 +1,36 @@
+Questions for Iain Learmouth, HamBSD: Bringing Amateur Packet Radio to OpenBSD
+
+irl: https://www.freebsdfoundation.org/wp-content/uploads/2016/10/HAMradioBruce.pdf
+
+11:30 double-p: irl: so "license"?
+11:30 irl: yeah this is probably the best yaesu handheld, it's got APRS, wideband rx and it can do AM/FM on 6m
+
+11:30 Dianora: irl: which Yaesu?
+11:30 irl: VX-8DE
+
+11:34 Dianora: irl: is openbsd phasing out support for python2?
+11:34 irl: yeah debian is going to end up dropping chirp probably (speaking as a maintainer)
+11:34 irl: i don't know for openbsd
+
+11:40 qbit: irl is the TH-D74 easy to manually program?
+11:40 irl: qbit: easier than other radios i've used
+
+11:53 qbit: irl do you maintain patchsets that can be used on openbsd?
+11:54 irl: https://github.com/hambsd/src
+
+11:59 akpoff: Dianora: IIRC, though, we can't use any of the wifi crypto features, right?
+11:59 Dianora: bsdtv_patrick: http://www.broadband-hamnet.org/
+11:59 Dianora: akpoff: correct
+11:59 irl: akpoff: you can use ipsec with null crypto and do authentication
+
+11:59 crest: irl: why would i do that?
+11:59 irl: crest: to authenticate
+12:00 akpoff: irl: that's because the auth is a hash value, right?
+12:00 Dianora: it's fine for repeater linking
+
+12:12 akpoff: irl: i'd like to know a bit more about over-the-air authentication .. are we reasonably certain that trading hash values passes muster?
+12:13 irl: akpoff: the bar for license compliance is really low
+12:14 irl: so the current state of almost non-existing authentication is fine
+12:14 irl: using cryptography for authentication doesn't hide any meaning, and anyone can verify the MACs
+12:14 irl: so that's not encryption
+12:15 irl: https://tools.ietf.org/html/draft-learmonth-intarea-rfc1226-bis-01 section 4 outlines my current thinking on what things should and should not be done
