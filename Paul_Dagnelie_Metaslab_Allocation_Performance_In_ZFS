@@ -19,3 +19,5 @@ A: Corgi/Dog
 
 7. did you compared the b-tree to an adaptive radix tree?
 
+8. can you used a run length compressed bitmap? or even a roaring bitmap?
+
