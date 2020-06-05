@@ -25,4 +25,6 @@ Requester: crest
 ### Is someone working on socket splicing for ktls to offload things like haproxy with reencryption?
 Requester: crest
 
-### 
+###  How much work would it be to add ktls to gnutls?
+Requester: crest
+
