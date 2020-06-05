@@ -17,3 +17,7 @@ Requester: debrup
 ### So SW kTLS benefits from aesni(4) since that's conceptually software (as opposed to hifn(4) and ubsec(4) which are hardware)?
 Requester: debrup
 
+### how much did the kernel crypto framework have to change for ktls?
+Requester: crest
+
+### 
