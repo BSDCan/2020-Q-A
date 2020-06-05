@@ -1,1 +1,6 @@
-<kusuriya> [Q] Did you happen to do any performance testing or overhead testing? If so how much did the impact what you sandboxed?
+<kusuriya> [Q] Did you happen to do any performance testing or
+overhead testing? If so how much did the impact what you sandboxed?
+
+<pcd> [Q] Is it possible to increase the stack size of the eBPF
+programs, or is that defined in such a way that increasing it for
+these compatability hooks would be difficult?
