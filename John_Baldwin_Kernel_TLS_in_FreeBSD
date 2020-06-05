@@ -12,3 +12,6 @@ Requester: crest
 
 ### Do you know if the work by rmacklem@ on TLS encrypted NFS going to be benefiting from kTLS too?
 Requester: debrup
+<crest> looks like he uses ktls only with a userspace helper. but sofar only supports tls1.2 because ktls doesn't support tls1.3 (yet) 
+
+### 
