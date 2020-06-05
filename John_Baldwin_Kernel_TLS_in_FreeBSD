@@ -20,4 +20,7 @@ Requester: debrup
 ### how much did the kernel crypto framework have to change for ktls?
 Requester: crest
 
+### is someone working on socket splicing for ktls to offload things like haproxy with reencryption?
+Requester: crest
+
 ### 
