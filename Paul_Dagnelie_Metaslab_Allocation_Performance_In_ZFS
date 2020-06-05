@@ -21,3 +21,5 @@ A: Corgi/Dog
 
 8. can you used a run length compressed bitmap? or even a roaring bitmap?
 
+9. are there other AVL trees that might be replaced with B-trees to similar effect
+
