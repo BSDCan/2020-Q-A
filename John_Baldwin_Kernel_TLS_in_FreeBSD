@@ -7,7 +7,7 @@ Date: 2020-06-05
 ### Does KTLS benefit from the OCF updates heading into HEAD, ie. if TLSv1.4 or 1.5 add new crypto primitives, it can be added in only one place in the kernel?
 Requester: debrup
 
-### will be possible to get a data only file descriptor for a ktls socket with ktls send and recv implemented. i would like to keep the key exchange i a different process
+### Will be possible to get a data only file descriptor for a ktls socket with ktls send and recv implemented. i would like to keep the key exchange i a different process
 Requester: crest
 
 ### Do you know if the work by rmacklem@ on TLS encrypted NFS going to be benefiting from kTLS too?
@@ -17,10 +17,10 @@ Requester: debrup
 ### So SW kTLS benefits from aesni(4) since that's conceptually software (as opposed to hifn(4) and ubsec(4) which are hardware)?
 Requester: debrup
 
-### how much did the kernel crypto framework have to change for ktls?
+### How much did the kernel crypto framework have to change for ktls?
 Requester: crest
 
-### is someone working on socket splicing for ktls to offload things like haproxy with reencryption?
+### Is someone working on socket splicing for ktls to offload things like haproxy with reencryption?
 Requester: crest
 
 ### 
