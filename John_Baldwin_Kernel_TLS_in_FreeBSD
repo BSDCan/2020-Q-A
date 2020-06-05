@@ -4,4 +4,9 @@ Date: 2020-06-05
 
 ## Questions
 
-### 
+### Does KTLS benefit from the OCF updates heading into HEAD, ie. if TLSv1.4 or 1.5 add new crypto primitives, it can be added in only one place in the kernel?
+Requester: debrup
+
+### will be possible to get a data only file descriptor for a ktls socket with ktls send and recv implemented. i would like to keep the key exchange i a different process
+Requester: crest
+
