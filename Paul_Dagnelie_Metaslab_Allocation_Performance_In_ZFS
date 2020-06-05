@@ -10,3 +10,12 @@ not much different from an MMU/TLB?
 
 3. double-p:
 but the main thing is differing block/page sizes, right?
+
+4. What is the breed of your pupper?
+A: Corgi/Dog
+
+5. how much further can the in memory datastructure compressed with bitstuffing?
+A:
+
+6. can the metaslabs be split into what is required to pick a metaslab and the actucal freemap?
+
