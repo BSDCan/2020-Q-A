@@ -1,0 +1,38 @@
+Questions for Michael Dexter (Stream 3, Session 1)
+Collapsing the Virtualized Storage Stack: How root on VirtFS can eliminate stacked block devices in virtual environments
+
+1. athompso:
+So p9's virtfs is the "tunnel" between the remote VM FS and the hypervisor FS, right?
+
+2. athompso:
+and does exactly what I would previously have done with NFS exports, just better/faster...?
+
+3. athompso:
+What about filesystem attributes - permissions, acls, metadata, xattrs, etc.?
+
+4. albert:
+Can virtfs be mounted on windows vms if you need to run them? (i guess running your windows vm with root on virtfs is out of the question of course)
+
+5. dotblake:
+Kinda off topic but would appreciate it if you could talk a bit about ZFS & Direct I/O if you're familiar with it
+
+6. kusuriya:
+Is freebsd-update as magic as it seems?
+
+7. dotblake:
+Kinda off topic but would appreciate it if you could talk a bit about ZFS & Direct I/O if you're familiar with it, or even open-channel SSDs...
+
+8. debdrup:
+About the 9pfs work, are there plans to keep up with the new 9pfs thing (that I'm totally failing to find the link for right now)
+
+9. rubenerd:
+As much for the group too if I can distract, anyone else have netbsd/zfs stories? been so impressed with how it's performed with cgd
+
+10. BSDCan_86162:
+Bhyve futures ?
+
+11. ghoti:
+Michael, have you published instructions on how to replicate your virtfs experiements?
+
+12. ghoti:
+Michael, have you published instructions on how to replicate your virtfs experiements?
