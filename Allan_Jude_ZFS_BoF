@@ -4,3 +4,7 @@ A:
 2. is that s3 backed vdev vapourware like block pointer re-writing?
 
 3. Does anyone use the autoreplace property on their pool (ie. automatically using a new disk when it's inserted, in a slot where there used to be a disk) ?
+
+4.  will swap on zvol ever work correctly?
+
+5.  is anyone working on getting ZFS and NUMA to play nice and allow the ARC to be larger than 80% of the smallest numa domain?
