@@ -14,4 +14,6 @@ Requester: crest
 Requester: debrup
 <crest> looks like he uses ktls only with a userspace helper. but sofar only supports tls1.2 because ktls doesn't support tls1.3 (yet) 
 
-### 
+### So SW kTLS benefits from aesni(4) since that's conceptually software (as opposed to hifn(4) and ubsec(4) which are hardware)?
+Requester: debrup
+
