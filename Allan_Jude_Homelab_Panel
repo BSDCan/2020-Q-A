@@ -2,3 +2,5 @@
 A: you'd have to ask iX
 
 2. Homelab stuff, I've got a SES enclosure connected to a SAS HBA, and I'm wondering if there's a way to get /dev/enc@n5006048005f1ebbe/type@0/slot@N/daN as the path for 'zpool status' output?
+
+3. As a followup to my question, when I add the disks via zpool create they just appear as /dev/daN
