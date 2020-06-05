@@ -1,0 +1,6 @@
+1.  So what's the status of being able to grow a RaidZn pool?
+A: 
+
+2. is that s3 backed vdev vapourware like block pointer re-writing?
+
+3. Does anyone use the autoreplace property on their pool (ie. automatically using a new disk when it's inserted, in a slot where there used to be a disk) ?
