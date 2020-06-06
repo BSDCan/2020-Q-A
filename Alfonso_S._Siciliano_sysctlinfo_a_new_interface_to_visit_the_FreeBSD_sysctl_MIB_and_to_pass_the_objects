@@ -1,0 +1,5 @@
+<bsdimp> [Q]: Why not use nvlist?
+
+<bsdimp> [Q]: Do you have benchmarks on how much faster this is?
+
+<bsdimp> [Q]: Can the old interface be implemented as a library on top of the new interface?
