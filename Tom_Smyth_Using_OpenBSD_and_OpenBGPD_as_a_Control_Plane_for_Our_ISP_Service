@@ -2,3 +2,5 @@
     otherwise, how are you stuffing that many routes into a 7050 ?
     
 [Q] why not add static ip routes to your route servers to the layer 2 optimized switches?
+
+[Q] how much traffic are you routing with all this?
