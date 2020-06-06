@@ -8,3 +8,6 @@
 [Q] how much work would be required to teach ULE about arm big.little systems like the pinebook pro?
   
 Kirk_McKusick Q: is once per second still valid? When was the last time evaluated it...
+
+
+[Q] what would be required to add poweraware scheduling to freebsd?
