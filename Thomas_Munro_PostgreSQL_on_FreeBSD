@@ -18,3 +18,9 @@ changes on system upgrades?
 would make it bad idea to disable fsync on ZFS?
 
 <crest> [Q] does postgresql plan on using async list i/o?
+
+<AllanJude> [Q] Have you looked at the recent proposals for O_DIRECT
+on ZFS to see if it will make sense for PostgreSQL, or if there might
+be input you could provide on the design to make sure it will be
+useful?
+https://openzfs.topicbox.com/groups/developer/T950b02acdf392290/odirect-semantics-in-zfs
