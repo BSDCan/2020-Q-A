@@ -1,2 +1,8 @@
 [Q] In realtime operating sytems, EDF is generally implemented, what about the difference between a priority based 
 scheduling versus a deadline based scheduler on BSD?
+
+[Q] Are you not rate limiting the honeypot's outbound traffic all up?
+
+[Q] Do any of the honeypot frameworks integrate with scapy?
+
+[Q] Have you tried using a jailed bhyve vm for the lols?
