@@ -1,1 +1,4 @@
 <DruidZ> [Q] how much of this applies to other BSDs?
+
+<crest> [Q] would it make sense to have a single setting to optimize
+pgsql defaults for copy on write filesystems?
