@@ -6,3 +6,5 @@ scheduling versus a deadline based scheduler on BSD?
 [Q] Do any of the honeypot frameworks integrate with scapy?
 
 [Q] Have you tried using a jailed bhyve vm for the lols?
+
+[Q] which software such as Suricata are actually safe to use so that they don't get exploited?
