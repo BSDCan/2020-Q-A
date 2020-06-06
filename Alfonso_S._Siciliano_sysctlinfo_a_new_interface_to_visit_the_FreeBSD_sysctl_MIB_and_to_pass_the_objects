@@ -1,5 +1,9 @@
 <bsdimp> [Q]: Why not use nvlist?
+[A]: It is a good idea to add nvlist to sysctl, so we could manage the opaque values in an "automatic way" in /sbin/sysctl.
+I wasted time to code sysctlview and nsysctl to manage "manually" every opaque value.
 
 <bsdimp> [Q]: Do you have benchmarks on how much faster this is?
+[A]: I did some test with time(1): https://gitlab.com/alfix/sysctlinfo/-/blob/master/testing/time/time_testing.sh
 
 <bsdimp> [Q]: Can the old interface be implemented as a library on top of the new interface?
+[A]: Yes, it can, it is a good idea; properly the nodes of the old interface should call the function(s) of the new interface.
