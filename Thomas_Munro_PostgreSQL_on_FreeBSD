@@ -11,3 +11,8 @@ the most?
 changes on system upgrades?
 
 <debdrup> [Q] Does NetBSD support POSIX_FADV_WILLNEED for ZFS in 9.0-RELEASE?
+
+<debdrup> [Q] Will POSIX_FADV_WILLNEED benefit from the NFS4.2 IO_ADVISE?
+
+<pjd> [Q] So, if I can afford losing some changes to my database, what
+would make it bad idea to disable fsync on ZFS?
