@@ -1,8 +1,10 @@
 
- [Q]: does freebsd use count leading zeroes instructions for the bitmap scan?
- [Q] Is there a reason for why the scheduler quantum is 94488µs?
-  [Q] is there a "least effort" priority that a process could request? i.e. "run this if you can, drop it if you can't" ?
+[Q]: does freebsd use count leading zeroes instructions for the bitmap scan?
+
+[Q] Is there a reason for why the scheduler quantum is 94488µs?
+
+[Q] is there a "least effort" priority that a process could request? i.e. "run this if you can, drop it if you can't" ?
   
-  [Q] how much work would be required to teach ULE about arm big.little systems like the pinebook pro?
+[Q] how much work would be required to teach ULE about arm big.little systems like the pinebook pro?
   
-   Kirk_McKusick Q: is once per second still valid? When was the last time evaluated it...
+Kirk_McKusick Q: is once per second still valid? When was the last time evaluated it...
