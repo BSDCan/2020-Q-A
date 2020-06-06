@@ -9,3 +9,5 @@ the most?
 
 <crest> [Q] how does postgresql react if the strcoll_l() sorting
 changes on system upgrades?
+
+<debdrup> [Q] Does NetBSD support POSIX_FADV_WILLNEED for ZFS in 9.0-RELEASE?
