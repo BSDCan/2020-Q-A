@@ -4,4 +4,6 @@ Date: 2020-06-06
 
 ## Questions
 
-### 
+### Does each OS get the same IP whether host or guest? Do you need to use some dynDNS solution to achieve this because the MAC address of your physical machine doesn't change?
+
+### For the console problems in Windows, are you using Generation 1 or Generation 2 VMs?
