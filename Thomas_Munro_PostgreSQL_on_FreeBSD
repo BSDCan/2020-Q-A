@@ -6,3 +6,6 @@ all things zfs allows you to get away with e.g. no torn writes?
 
 <crest> [Q] aio_* variants of which system calls would help postgresql
 the most?
+
+<crest> [Q] how does postgresql react if the strcoll_l() sorting
+changes on system upgrades?
