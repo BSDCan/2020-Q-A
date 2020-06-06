@@ -1,3 +1,9 @@
 Questions for Andre Buskvekster on the Presentation: Editing Movies on OpenBSD
-Session did not occur on Friday
+
+1. Can't you use -to in ffmpeg instead of converting time and using -t?
+2. Why do you embed this processing step in R? Was that mentioned?
+3. synchronizing audio and video tracks is sometimes tricky and non-intuitive.  Hence SMPTE.  Do you encounter these problems?
+4. If you have many cores, is parallelizing this as simple as "make -j"
+
+(Session did not occur on Friday, was rescheduled for Saturday.)
 
