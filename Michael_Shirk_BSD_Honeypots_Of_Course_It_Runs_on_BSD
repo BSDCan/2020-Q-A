@@ -1,1 +1,2 @@
-
+[Q] In realtime operating sytems, EDF is generally implemented, what about the difference between a priority based 
+scheduling versus a deadline based scheduler on BSD?
