@@ -16,3 +16,5 @@ changes on system upgrades?
 
 <pjd> [Q] So, if I can afford losing some changes to my database, what
 would make it bad idea to disable fsync on ZFS?
+
+<crest> [Q] does postgresql plan on using async list i/o?
