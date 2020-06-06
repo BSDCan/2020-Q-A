@@ -1,4 +1,5 @@
 <DruidZ> [Q] how much of this applies to other BSDs?
 
 <crest> [Q] would it make sense to have a single setting to optimize
-pgsql defaults for copy on write filesystems?
+pgsql defaults for copy on write filesystems? or maybe even one for
+all things zfs allows you to get away with e.g. no torn writes?
